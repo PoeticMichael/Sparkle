@@ -2038,6 +2038,7 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					8DC2EF4F0486A6940098B216 = {
+						DevelopmentTeam = T62NAJX4JF;
 						LastSwiftMigration = 0920;
 					};
 					EA43119F229D5FBC00A5503D = {
@@ -2861,8 +2862,12 @@
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T62NAJX4JF;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = io.poeticnetworks.sparkle;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -2872,8 +2877,12 @@
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T62NAJX4JF;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = io.poeticnetworks.sparkle;
 			};
 			name = Release;
 		};
